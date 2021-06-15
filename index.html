@@ -3,7 +3,9 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
   .column {
   float: left;
@@ -23,17 +25,22 @@ img {
 #im {
     padding: 50px; float: left; width: 300px; height: 300px; 
 }
-@media (max-width: 600px){ 
-    p {
-    font-size: 10px;
-      }
+@media (max-width: 475px){ 
+     
+      
     #im {
-        width: 180px !important;
-        height: 180px !important;
-        left: 25px;
-        float: right;
-        position: relative;
+        width: 255px !important;
+        height: 255px !important;
         
+        
+        
+      
+        
+    }
+
+    li {
+      font-size: 12px !important;
+      
     }
   }
   
@@ -64,24 +71,27 @@ img {
 </header>
 
 <!-- Page content -->
-<div class="row" style="">
-    <div class="column ">
+
+
+<div class="row"style="" >
+    <div class="col-xl-4 col-12 col-lg-6 ">
     <a href="https://kaane5662.github.io/freedom-project-website/intro"><img id="im" class=""src="https://cdn.discordapp.com/attachments/650754013800955934/849480685165215765/unknown.png" alt="B vs "></a>
-    <p style="padding: 30px; color: white;">The competition between Airbus and Boeing has been characterised as a duopoly in the large jet airliner market since the 1990s.</p>
+    <p style="padding: 30px; color: white; ">The competition between Airbus and Boeing has been characterised as a duopoly in the large jet airliner market since the 1990s.</p>
     </div>
-   <div class="column ">
+   <div class="col-xl-4 col-12 col-lg-6">
      <a href="https://kaane5662.github.io/freedom-project-website/problem"><img id="im"src="https://cdn.discordapp.com/attachments/650754013800955934/850737916912861204/737Max-Freedom.png" alt="A cute orange cat lying on its back."></a>
-       <p style="padding: 30px; color: white;">Boeing was at a cliffhangar with Airbus's newer aircraft so they decided to rush FAA certification of the newer plane which led to catastrophe.</p>
+       <p style="padding: 30px; color: white; ">Boeing was at a cliffhangar with Airbus's newer aircraft so they decided to rush FAA certification of the newer plane which led to catastrophe.</p>
      </div>
-     <div class="column ">
+     <div class="col-xl-4 col-12 col-lg-6">
        <a href="https://kaane5662.github.io/freedom-project-website/solution"><img id="im" src="https://cdn.discordapp.com/attachments/650754013800955934/850737917927882812/solution-freedom.png" alt="A cute orange cat lying on its back."></a>
-       <p style="padding: 30px; color: white">With loads of extended research after defining the problem and technology used, here are some of the best solutions.</p>
+       <p style="padding: 30px; color: white; ">With loads of extended research after defining the problem and technology used, here are some of the best solutions.</p>
        </div>
        
        
     
 
 </div>
+
 
   
 
@@ -91,7 +101,7 @@ img {
 <!-- Footer -->
 <div style="background-color: white">
 <footer class="w3-center w3-card w3-blue w3-padding-16 ">
-  <p>Made by <a href="https://github.com/kaane5662" title="W3.CSS" target="_blank" class="w3-hover-text-green">Kaan</a></p>
+  <p style="margin-top: 10px;">Made by <a href="https://github.com/kaane5662" title="W3.CSS" target="_blank" ><span class="w3-hover-text-green" style="text-decoration: underline;">Kaan</span></a></p>
 </footer>
 </div>
 

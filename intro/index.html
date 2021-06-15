@@ -3,7 +3,9 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
   .column1 {
   float: left;
@@ -15,35 +17,27 @@
   clear: both;
   display: table;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 img {
         
         -webkit-filter: drop-shadow(2px 2px 2px black);
         filter: drop-shadow(2px 2px 2px black);
+        
 }
 dropshadow{
   opacity: 25%;
 }
 #im1 {
-  padding: 50px; float: left; width: 350px; height: 350px; margin-left: 1in;
+  padding: 50px;  width: 350px; height: 350px; margin-left: in;
 }
-@media (max-width: 600px){ 
-    p {
-    font-size: 12px !important; 
-      }
-    #im1 {
-        width: 200px !important;
-        height: 200px !important;
-        margin-left: 1in !important;
-        float: right;
-        
-      
-        
-    }
+
+
     
-    li {
-      font-size: 10px; 
-    }
-  }
 
         
         
@@ -55,12 +49,12 @@ dropshadow{
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-blue w3-wide w3-padding w3-card">
-    <a href="https://kaane5662.github.io/freedom-project-website" class="w3-bar-item w3-button"><b></b> Home</a>
+    <a href="https://kaane5662.github.io/freedom-project-website" class="w3-bar-item w3-button"><b></b><span style=""> Home</span></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="https://kaane5662.github.io/freedom-project-website/intro" class="w3-bar-item w3-button">Intro</a>
-      <a href="https://kaane5662.github.io/freedom-project-website/problem" class="w3-bar-item w3-button">Problem</a>
-      <a href="https://kaane5662.github.io/freedom-project-website/solution" class="w3-bar-item w3-button">Solution</a>
+      <a href="https://kaane5662.github.io/freedom-project-website/intro" class="w3-bar-item w3-button"><span style="">Intro</span></a>
+      <a href="https://kaane5662.github.io/freedom-project-website/problem" class="w3-bar-item w3-button"><span style="">Problem</span></a>
+      <a href="https://kaane5662.github.io/freedom-project-website/solution" class="w3-bar-item w3-button"><span style="">Solution</span></a>
     </div>
   </div>
 </div>
@@ -78,19 +72,22 @@ dropshadow{
 
 
 <!-- Page content -->
+
 <div class="">
   <h1 style="color: white; text-align: center; padding: 50px; text-decoration: underline;">Aviation Competition Summary</h1>
-  <p style="color: white; padding: 50px; font-size: 20px;"> Aviation comes in many flaws that need to be addressed. Two major airline companies competing are Airbus and Boeing, you’ve probably been on one. Boeing is a company that specialized in commercial jetliners from the Boeing-707 to Boeing-787 family. Airbus is a company that specialized in commercial jetliners from the Airbus-A300 to Airbus-A380 family. What is the problem that needs to be addressed? These companies rush to release newer models to compete on the market. Both companies are known for making fuel-efficient, sound efficient models that airlines buy often. This means that if one company can offer a better plane the other can lose a lot of money. This is a real world problem as “rushed aircraft” tend to lead to more catastrophic circumstances that can cost other’s lives. Take the Boeing 737-Max as an example.</h1>
+  <p style="color: white; padding: 25px; font-size: 18px;"> Aviation comes in many flaws that need to be addressed. Two major airline companies competing are Airbus and Boeing, you’ve probably been on one. Boeing is a company that specialized in commercial jetliners from the Boeing-707 to Boeing-787 family. Airbus is a company that specialized in commercial jetliners from the Airbus-A300 to Airbus-A380 family. What is the problem that needs to be addressed? These companies rush to release newer models to compete on the market. Both companies are known for making fuel-efficient, sound efficient models that airlines buy often. This means that if one company can offer a better plane the other can lose a lot of money. This is a real world problem as “rushed aircraft” tend to lead to more catastrophic circumstances that can cost other’s lives. Take the Boeing 737-Max as an example.</h1>
 </p>
 </div>
 <div class="row" style="">
-    <div class="column1 ">
-    <a href="https://en.wikipedia.org/wiki/Airbus"><img id="im1" class=""src="https://cdn.discordapp.com/attachments/650754013800955934/850737912626020362/airbus.png" alt="B vs "></a>
-    <li style="padding: 30px; color: white;">Airbus is the world's largest airliner manufacturer and took the most airliner orders, surpassing rival Boeing. It designs, manufactures and sells civil and military aerospace products worldwide and manufactures aircraft in the European Union and various other countries.</li>
+  <div class="row">
+    <div class="column1 col-xl-6  col-sm-12  col-12">
+    <a href="https://en.wikipedia.org/wiki/Airbus"><img id="im1" class="center"src="https://cdn.discordapp.com/attachments/650754013800955934/850737912626020362/airbus.png" alt="B vs "></a>
+    <li style="padding: 40px; color: white;">Airbus is the world's largest airliner manufacturer and took the most airliner orders, surpassing rival Boeing. It designs, manufactures and sells civil and military aerospace products worldwide and manufactures aircraft in the European Union and various other countries.</li>
     </div>
-   <div class="column1 ">
-     <a href="https://en.wikipedia.org/wiki/Boeing"><img id="im1"src="https://cdn.discordapp.com/attachments/650754013800955934/850907121554161664/boeing.png" alt="A cute orange cat lying on its back."></a>
-       <li style="padding: 30px; color: white;">Boeing is the world's largest aerospace company and leading manufacturer of commercial jetliners, defense, space and security systems, and service provider of aftermarket support.</li>
+    <div class="column1 col-xl-6  col-sm-12 col-12">
+     <a href="https://en.wikipedia.org/wiki/Boeing"><img id="im1"class="center"src="https://cdn.discordapp.com/attachments/650754013800955934/850907121554161664/boeing.png" alt="A cute orange cat lying on its back."></a>
+       <li style="padding: 40px; color: white;">Boeing is the world's largest aerospace company and leading manufacturer of commercial jetliners, defense, space and security systems, and service provider of aftermarket support.</li>
+     </div>
      </div>
 </div>
      
@@ -102,9 +99,9 @@ dropshadow{
 
 
 <!-- Footer -->
-<div style="background-color: white">
+<div style="color: white; ">
 <footer class="w3-center w3-card w3-blue w3-padding-16 ">
-  <p>Made by <a href="https://github.com/kaane5662" title="W3.CSS" target="_blank" class="w3-hover-text-green">Kaan</a></p>
+  <p style="margin-top: 10px;">Made by <a href="https://github.com/kaane5662" title="W3.CSS" target="_blank" ><span class="w3-hover-text-green" style="text-decoration: underline;">Kaan</span></a></p>
 </footer>
 </div>
 
